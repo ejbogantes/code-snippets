@@ -1,0 +1,67 @@
+@import '../../../../../soom-styles/src/lib/soom-styles.module.scss';
+.footer__container {
+  background-color: $primary-color;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding: rem(15px) rem(0px);
+  z-index: 99999;
+}
+
+.footer__options {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.footer__option {
+  > a {
+    color: $card-background-color;
+    padding: rem(15px);
+    text-decoration: none;
+    font-family: $fontFamily;
+  }
+  > span {
+    color: $secondary-color;
+    font-family: $fontFamily;
+  }
+}
+
+.footer__container__logo {
+  display: flex;
+  padding: 0;
+  > a {
+    padding: 0;
+    margin-left: 0.5em;
+    margin-top: 0.125em;
+    display: inline-block;
+  }
+}
+
+.footer__logo {
+  height: rem(14px);
+  width: auto;
+}
+
+.footer__version {
+  color: $card-background-color;
+  margin-left: 0.5em !important;
+  margin-top: 0.125em !important;
+}
+
+@include sm {
+  .footer__options {
+    flex-grow: 2;
+    flex-wrap: wrap;
+  }
+  .footer__option {
+    margin: rem(15px) rem(15px);
+  }
+}
+
+@include md {
+  .footer__options {
+    flex-wrap: wrap;
+  }
+}

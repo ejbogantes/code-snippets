@@ -1,0 +1,28 @@
+@import '../../../../../soom-styles/src/lib/soom-styles.module.scss';
+.sidebar__container {
+  background: #ffffff;
+  font-family: $fontFamily;
+  display: flex;
+  border-right: 1px solid $border-color;
+  max-width: rem(240px);
+  position: fixed;
+  height: calc(100vh - 117px) !important;
+  overflow-y: auto !important;
+}
+
+.sidebar__container-collapse {
+  width: rem(60px);
+}
+
+.sidebar__container-uncollapse {
+  width: rem(210px);
+}
+
+.list__container {
+  font-family: $fontFamily;
+  border-bottom: none;
+}
+
+.sidebar__menu_item {
+  font-family: $fontFamily;
+}

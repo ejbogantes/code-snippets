@@ -1,0 +1,20 @@
+@import '../../../../../../../libs/soom-styles/src/lib/soom-styles.module.scss';
+.form__container {
+  margin-bottom: rem(80px);
+}
+
+.soom-dashboard-dropzone {
+  min-height: rem(50px) !important;
+}
+
+.dropzone-text {
+  font-size: rem(16px) !important;
+}
+
+.header {
+  margin-left: rem(20px);
+}
+
+.swSafetyUpdate {
+  margin-top: rem(6px);
+}

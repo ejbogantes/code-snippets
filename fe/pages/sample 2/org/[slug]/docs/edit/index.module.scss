@@ -1,0 +1,55 @@
+@import '../../../../../../../libs/soom-styles/src/lib/soom-styles.module.scss';
+.form__container {
+  margin-bottom: rem(80px);
+}
+
+.divider {
+  margin: rem(5px) 0 rem(15px);
+}
+
+.soom-dashboard-dropzone {
+  min-height: rem(85px) !important;
+}
+
+.soom-dashboard-inputsize {
+  width: 100%;
+}
+
+.dropzone-text {
+  font-size: rem(18px) !important;
+}
+
+.header {
+  margin-left: rem(20px);
+}
+
+.swSafetyUpdate {
+  margin-top: rem(6px);
+}
+
+.action_button_review {
+  color: $soom-action-button-review !important;
+  box-shadow: 0;
+  cursor: pointer;
+}
+
+.action_button_publish {
+color: $soom-action-button-publish !important;
+  box-shadow: 0;
+  cursor: pointer;
+}
+
+.action_button_reject {
+color: $soom-action-button-reject !important;
+
+  box-shadow: 0;
+  cursor: pointer;
+}
+
+.action_button_draft {
+  color: $soom-action-button-draft !important;
+
+  box-shadow: 0;
+  cursor: pointer;
+}
+

@@ -1,0 +1,42 @@
+@import '../../../../libs/soom-styles/src/lib/soom-styles.module.scss';
+
+.user-icon {
+  fill: white !important;
+  width: 1.1em !important;
+  height: 1.1em !important;
+}
+
+.sign-out-icon {
+  fill: white !important;
+  width: 1.1em !important;
+  height: 1.1em !important;
+}
+
+.soom-eifu-dashboard-page {
+  font-family: $fontFamily !important;
+  margin-top: rem(20px);
+  margin-left: rem(250px);
+  min-height: rem(650px);
+  width: 82%;
+}
+
+.soom-eifu-link {
+  text-decoration: underline;
+  &:link {
+    color: blue;
+  }
+  &:active {
+    color: blue;
+  }
+  &:visited {
+    color: purple;
+  }
+}
+
+.soom-eifu-dashboard-table-header {
+  background: $table-header-color !important;
+}
+
+.soom-eifu-dashboard-switch-label {
+  font-size: rem(14px);
+}

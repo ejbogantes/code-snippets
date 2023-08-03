@@ -1,0 +1,37 @@
+@import '../../../../../libs/soom-styles/src/lib/soom-styles.module.scss';
+.form-step {
+  display: flex;
+  flex-direction: row;
+  padding-top: rem(20px);
+  padding-left: rem(30px);
+  padding-right: rem(30px);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: rem(10px);
+}
+
+.license-card {
+  border: solid 2px $soom-card-background-secondary-color;
+  &.license-card-selected {
+    border-color: $secondary-color;
+    box-shadow: 2px 2px $secondary-color;
+  }
+}
+
+.license-card-content {
+  background-color: $soom-card-background-secondary-color;
+}
+
+.license-button {
+  background-color: $secondary-color !important;
+  color: $tertiary-color !important;
+  &:hover {
+    background-color: $secondary-color-hover !important;
+  }
+  &:disabled {
+    opacity: 70%;
+  }
+}

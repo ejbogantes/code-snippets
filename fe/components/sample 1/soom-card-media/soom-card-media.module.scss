@@ -1,0 +1,10 @@
+@import '../../../../../soom-styles/src/lib/soom-styles.module.scss';
+
+.card__media {
+  text-align: center;
+
+  > svg {
+    font-size: rem(150px);
+    fill: $success-color;
+  }
+}

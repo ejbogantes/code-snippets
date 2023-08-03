@@ -1,0 +1,17 @@
+@import '../../../../../../libs/soom-styles/src/lib/soom-styles.module.scss';
+
+.form-step {
+  display: flex;
+  flex-direction: row;
+  padding-top: rem(30px);
+  padding-left: rem(20px);
+  padding-right: rem(20px);
+}
+
+.dropzone__component {
+  min-height: rem(100px) !important;
+}
+
+.dropzone__text {
+  font-size: rem(18px) !important;
+}

@@ -1,0 +1,44 @@
+@import '../../../../../soom-styles/src/lib/soom-styles.module.scss';
+.navbar--background {
+  background-color: #444444;
+  font-family: $fontFamily;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+}
+
+.navbar--icon {
+  height: 1.4em;
+  width: auto;
+  margin: 0.75em;
+}
+
+.user-icon {
+  fill: white !important;
+  width: 1.1em !important;
+  height: 1.1em !important;
+}
+
+.sign-out-icon {
+  fill: white !important;
+  width: 1.1em !important;
+  height: 1.1em !important;
+}
+
+.navbar--title {
+  font-family: $fontFamily;
+}
+
+.navbar--label {
+  font-family: $fontFamily;
+  color: white;
+}
+
+.user--button {
+  background-color: #444444 !important;
+  font-family: $fontFamily !important;
+  color: white !important;
+  text-transform: none;
+}

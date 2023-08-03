@@ -1,0 +1,9 @@
+@import '../../../../../../libs/soom-styles/src/lib/soom-styles.module.scss';
+
+.form-step {
+  display: flex;
+  flex-direction: row;
+  padding-top: rem(30px);
+  padding-left: rem(20px);
+  padding-right: rem(20px);
+}

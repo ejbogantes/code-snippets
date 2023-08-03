@@ -1,0 +1,29 @@
+@import '../../../../../soom-styles/src/lib/soom-styles.module.scss';
+
+.gdpr__container {
+  background: $soom-gdpr-background-color !important;
+  z-index: 999999 !important;
+  font-family: $fontFamily;
+  a {
+    font-family: $fontFamily;
+    color: $secondary-color;
+  }
+}
+
+.gdpr__button__accept {
+  background: $soom-gdpr-accept-background-color;
+  color: $soom-gdpr-button-text-color;
+
+  &:hover {
+    background: $soom-gdpr-accept-background-color-hover;
+  }
+}
+
+.gdpr__button__decline {
+  background: $soom-gdpr-decline-background-color;
+  color: $soom-gdpr-button-text-color;
+
+  &:hover {
+    background: $soom-gdpr-decline-background-color-hover;
+  }
+}

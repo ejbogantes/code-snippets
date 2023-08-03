@@ -1,0 +1,10 @@
+@import '../../../../libs/soom-styles/src/lib/soom-styles.module.scss';
+.heading {
+  background: $soom-portal-profile-heading !important;
+  margin: 2% !important;
+  font-weight: bold;
+}
+
+.heading_background {
+  background: $soom-portal-profile-heading !important;
+}
